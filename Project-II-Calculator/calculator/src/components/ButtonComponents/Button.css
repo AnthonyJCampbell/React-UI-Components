@@ -1,15 +1,31 @@
+
 .actionButton {
-    border: 1px solid red;
-    background: #aaa;
-    height: 20px;
-    width: 30px
+    font-size: 3em;
+    background: #9F1C22;
+    border: 1px solid black;
+    padding: 5px 10px;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .numberButton {
-    border: 1px solid blue;
+    font-size: 3em;
+    border: 1px solid black;
     width: 33%;
+    max-width: 200px;
     padding: 5px 10px;
-    background: #ccc;
-    height: 20px;
+    background: #eee;
+    height: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.numberButton:hover, .actionButton:hover {
+    opacity: 0.5;
 }
 

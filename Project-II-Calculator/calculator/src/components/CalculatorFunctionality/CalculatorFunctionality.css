@@ -1,0 +1,18 @@
+
+.functionalityHolder {
+    display: flex;
+}
+
+.leftHand {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    width: 75%;
+}
+.rightHand {
+    width: 25%;
+}
+
+.fullWidth {
+    width: 100%;
+}

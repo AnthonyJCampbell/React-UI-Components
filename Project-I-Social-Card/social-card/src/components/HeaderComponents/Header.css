@@ -1,1 +1,9 @@
 /* All styles for your header Components live here */
+.topRow {
+    display: flex;
+}
+
+.inlineTitle {
+    display: flex;
+    align-items: center;
+}

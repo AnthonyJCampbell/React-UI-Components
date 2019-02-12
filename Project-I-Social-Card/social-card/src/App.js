@@ -6,7 +6,7 @@ import CardContainer from './components/CardComponents/CardContainer';
 
 const App = () => {
   return (
-    <div>
+    <div class="holder">
       <HeaderContainer />
       <a href="https://www.reactjs.org" target="_blank" rel="noopener noreferrer">
         <CardContainer />

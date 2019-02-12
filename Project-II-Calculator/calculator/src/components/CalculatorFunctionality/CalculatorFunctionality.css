@@ -1,0 +1,24 @@
+.functionalityHolder {
+    display: flex;
+}
+
+.leftHand {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100%;
+}
+.rightHand {
+    width: 25%;
+    height: 100%;
+}
+
+.fullWidth {
+    width: 100% !important;
+    max-width: 500px !important;
+}
+
+.clear {
+    background: #eee !important;
+}

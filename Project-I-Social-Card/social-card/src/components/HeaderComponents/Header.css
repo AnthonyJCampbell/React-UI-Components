@@ -1,9 +1,18 @@
 /* All styles for your header Components live here */
 .topRow {
     display: flex;
+    justify-content: space-between;
 }
 
 .inlineTitle {
+    width: 70%;
     display: flex;
     align-items: center;
+}
+
+.imgHolder {
+    width: 20%;
+}
+.imgHolder img {
+    transform: scale(.5);
 }

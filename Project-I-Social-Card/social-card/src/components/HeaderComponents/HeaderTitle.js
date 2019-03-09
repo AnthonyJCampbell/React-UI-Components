@@ -6,7 +6,7 @@ const HeaderTitle = () => {
     return (
         <div className='inlineTitle'>
             <h2>Lambda School</h2>
-            <h3>@LambdaSchool * {moment().format('LL')}</h3>
+            <h3>@LambdaSchool - {moment().format('LL')}</h3>
         </div>
     );
 }
